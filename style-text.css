@@ -122,6 +122,16 @@ h2 {
     transition: border 0.3s ease, color 0.3s ease ,transform 0.3s ease;
 }
 
+.image-text {
+    font-size: 200px;
+    background-image: url(image2.png);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    background-position: center;
+}
+
+
 .back-button:hover {
     background:none;
     border:  6px solid #501570;
