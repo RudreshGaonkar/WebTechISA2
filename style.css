@@ -4,8 +4,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* flex-direction: column; */
-    /* height: 100vh; */
     margin: 0;
     margin-top: 100px;
     padding: 10px;
@@ -27,8 +25,7 @@ body {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: background 0.5s ease, box-shadow 0.5s ease;
-    margin: 10px auto;
-    max-height: 500px;
+    height: 500px;
 }
 
 .box:hover {
@@ -36,19 +33,19 @@ body {
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 }
 
-/* Tab-like style for list items */
+
 ul {
-    list-style-type: none; /* Remove default list style */
+    list-style-type: none; 
     padding: 0;
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap if necessary */
+    flex-wrap: wrap; 
     justify-content: center;
     margin-top: 20px;
 }
 
 ul li {
     display: inline-block;
-    width: 45%; /* Set width to ensure two tabs per line */
+    width: 45%; 
     margin: 10px 5%;
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -60,7 +57,7 @@ ul li {
 
 ul li:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    transform: translateY(-5px); /* Slight upward movement on hover */
+    transform: translateY(-5px);
 }
 
 /* Background Properties Div */
@@ -73,35 +70,8 @@ ul li:hover {
     border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Display content when active */
-.box.active .content {
-    display: block;
-}
 
 h1, h2 {
     text-align: center;
     color: #fff;
-}
-
-.demo-box {
-    width: 100%;
-    min-height: 250px;
-    margin: 20px 0;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
-h2 {
-    margin: 0;
-    font-size: 18px;
-}
-
-.box {
-    margin: 10px auto;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
