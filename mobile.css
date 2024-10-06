@@ -10,7 +10,7 @@
 
     .box {
         width: 75%;
-        height: 70%;
+        height: 700px;
         padding: 20px;
         border-radius: 10px;
     }
@@ -26,5 +26,19 @@
         display: block;
         width: 100%; 
         border-radius: 8px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (min-height:1366px)
+{
+    body {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .box {
+        width: 75%;
+        height: 500px;
     }
 }

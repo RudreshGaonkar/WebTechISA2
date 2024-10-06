@@ -7,7 +7,7 @@ body {
     margin: 0;
     margin-top: 100px;
     padding: 10px;
-    /* background: linear-gradient(135deg, #1e3c72, #2a5298, #162447, #0f2027, #3c1053, #ad5389); Galaxy gradient */
+    /* background: linear-gradient(135deg, #1e3c72, #2a5298, #162447, #0f2027, #3c1053, #ad5389); */
     background-image: url(backimg.png);
     background-attachment: fixed;
     background-size: cover;
