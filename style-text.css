@@ -1,0 +1,111 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Container for each box */
+.demo-box {
+    width: 80%;
+    min-height: 250px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: min-height 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Hover effect to increase height */
+.demo-box:hover {
+    min-height: 300px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+}
+
+/* Ellipsis example */
+.ellipsis-box {
+    white-space: nowrap;
+    width: 400px;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Clip text overflow example */
+.clip-box {
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    /* border: 1px solid black; */
+}
+
+/* Word-wrap example */
+.word-wrap-box {
+    width: 200px;
+    overflow-wrap: break-word;
+}
+
+/* Word-break: break-all example */
+.break-all-box {
+    width: 200px;
+    word-break: break-all;
+}
+
+/* Word-break: keep-all example */
+.keep-all-box {
+    width: 200px;
+    word-break: keep-all;
+}
+
+/* Writing mode examples */
+.vertical-rl-box {
+    writing-mode: vertical-rl;
+}
+
+.horizontal-tb-box {
+    writing-mode: horizontal-tb;
+}
+
+/* Text shadow examples */
+.shadow-gray-box {
+    text-shadow: 2px 2px 5px rgb(223, 222, 222);
+}
+
+.shadow-blue-box {
+    text-shadow: 0px 0px 8px blue;
+}
+
+/* Text transform examples */
+.uppercase-box {
+    text-transform: uppercase;
+}
+
+.lowercase-box {
+    text-transform: lowercase;
+}
+
+.capitalize-box {
+    text-transform: capitalize;
+}
+
+
+ h2 {
+    text-align: center;
+}

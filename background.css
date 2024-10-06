@@ -1,0 +1,132 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Container for each box */
+.box {
+    width: 80%;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); /* Glassy effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on boxes */
+.box:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+}
+
+/* Demo box styles */
+.demo-box {
+    width: 100%;
+    min-height: 400px; /* Ensures consistent height for all demo boxes */
+    border-radius: 8px;
+    background-color: lightgray; /* Default fallback background */
+    background-size: cover; /* Default background-size behavior */
+    background-repeat: no-repeat; /* Default background-repeat behavior */
+    background-position: center; /* Default background-position */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual box headings */
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Light Blue Background */
+.lightblue {
+    background-color: lightblue;
+}
+
+/* Light Coral Background */
+.lightcoral {
+    background-color: lightcoral;
+}
+
+/* Background Image Cover */
+.image-cover {
+    background-image: url('image1.png');
+    background-size: cover;
+}
+
+/* Background Image Contain */
+.image-contain {
+    background-image: url('image1.png');
+    background-size: contain;
+}
+
+/* Background Size 50% */
+.image-50 {
+    background-image: url('image1.png');
+    background-size: 50% 50%;
+}
+
+/* Background Repeat */
+.image-repeat {
+    background-image: url('image1.png');
+    background-repeat: repeat;
+}
+
+/* Background No Repeat */
+.image-no-repeat {
+    background-image: url('image1.png');
+    background-repeat: no-repeat;
+}
+
+/* Background Position Top */
+.image-top {
+    background-image: url('image1.png');
+    background-position: top;
+}
+
+/* Background Position Center */
+.image-center {
+    background-image: url('image1.png');
+    background-position: center;
+}
+
+/* Background Position Bottom Right */
+.image-bottom-right {
+    background-image: url('image1.png');
+    background-position: bottom right;
+}
+
+/* Background Attachment Fixed */
+.image-fixed {
+    background-image: url('image1.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Background Attachment Scroll */
+.image-scroll {
+    background-image: url('image1.png');
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+/* Background Attachment Local */
+.image-local {
+    background-image: url('image1.png');
+    background-attachment: local;
+    background-size: cover;
+}

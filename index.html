@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Background & Text Effects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Properties Section -->
+    <div class="box background-properties" onclick="nextPage('b');">
+        <h1>Background Properties</h1>
+        <div id="background" class="content" >
+            <ul>
+                <li>background-color: Solid color backgrounds.</li>
+                <li>background-image: Adding images as backgrounds.</li>
+                <li>background-repeat, background-position: Controlling image repetition and positioning.</li>
+                <li>background-size: Adjusting image size (cover, contain, custom dimensions).</li>
+                <li>background-attachment: Fixed, scroll backgrounds.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Text Effects Section -->
+    <div class="box text-effects" onclick="nextPage('t');">
+        <h1>Text Effects</h1>
+        <div id="text" class="content">
+            <ul>
+                <li>text-overflow: Handling Text Overflow</li>
+                <li>word-wrap (now overflow-wrap): Breaking Long Words</li>
+                <li>word-break: Controlling Line Breaking for Words</li>
+                <li>writing-mode: Controlling Text Flow Direction</li>
+                <li>text-shadow: Adding shadows to text for depth effects.</li>
+                <li>text-transform: Changing text case </li>
+            </ul>
+        </div>
+    </div>
+
+<script>
+    function nextPage(page)
+    {
+        if(page === 't')
+        {
+            window.location.href="text.html";
+        }
+        else{
+            window.location.href="background.html";
+        }
+    }
+</script>
+</body>
+</html>
