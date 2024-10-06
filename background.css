@@ -57,77 +57,77 @@ h2 {
     background-color: lightblue;
 }
 
-/* Light Coral Background */
+/* linear-gradient Background */
 .gradient {
-    background-color: linear-gradient(135deg, #1e3c72, #2a5298, #162447, #0f2027, #3c1053, #ad5389);
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #162447, #0f2027, #3c1053, #ad5389);
 }
 
 /* Background Image Cover */
 .image-cover {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-size: cover;
 }
 
 /* Background Image Contain */
 .image-contain {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-size: contain;
 }
 
 /* Background Size 50% */
 .image-50 {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-size: 50% 50%;
 }
 
 /* Background Repeat */
 .image-repeat {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-size: 40%;
     background-repeat: repeat;
 }
 
 /* Background No Repeat */
 .image-no-repeat {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-repeat: no-repeat;
 }
 
 /* Background Position Top */
 .image-top {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-position: top;
 }
 
 /* Background Position Center */
 .image-center {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-position: center;
 }
 
 /* Background Position Bottom Right */
 .image-bottom-right {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-position: bottom right;
 }
 
 /* Background Attachment Fixed */
 .image-fixed {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-attachment: fixed;
     background-size: cover;
 }
 
 /* Background Attachment Scroll */
 .image-scroll {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-attachment: scroll;
     background-size: cover;
 }
 
 /* Background Attachment Local */
 .image-local {
-    background-image: url('image1.png');
+    background-image: url(image1.png);
     background-attachment: local;
     background-size: cover;
 }
