@@ -104,6 +104,27 @@ h1 {
 }
 
 
- h2 {
+h2 {
     text-align: center;
+}
+
+.back-button {
+    margin: 50px auto;
+    display:block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #162447, #0f2027, #3c1053, #ad5389);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: border 0.3s ease, color 0.3s ease ,transform 0.3s ease;
+}
+
+.back-button:hover {
+    background:none;
+    border:  6px solid #501570;
+    color: #ad5389;
+    transform: scale(1.05);
 }
