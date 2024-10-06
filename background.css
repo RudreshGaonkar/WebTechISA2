@@ -58,8 +58,8 @@ h2 {
 }
 
 /* Light Coral Background */
-.lightcoral {
-    background-color: lightcoral;
+.gradient {
+    background-color: linear-gradient(135deg, #1e3c72, #2a5298, #162447, #0f2027, #3c1053, #ad5389);
 }
 
 /* Background Image Cover */
@@ -83,6 +83,7 @@ h2 {
 /* Background Repeat */
 .image-repeat {
     background-image: url('image1.png');
+    background-size: 40%;
     background-repeat: repeat;
 }
 
